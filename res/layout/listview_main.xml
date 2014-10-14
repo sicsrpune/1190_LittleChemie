@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:baselineAligned="false">
+ 
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1" >
+ 
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/targetlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/targettextview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:textSize="35sp"
+            android:textColor="@color/point" />
+
+       <ImageView
+           android:id="@+id/targetlist"
+           android:layout_width="150dp"
+           android:layout_height="100dp"/>
+           
+           <TextView
+           android:id="@+id/textview"
+           android:layout_width="150dp"
+           android:layout_height="25dp"
+           android:text="@string/plus"
+           android:textSize="25sp"
+           android:layout_marginTop="25dp"
+           android:layout_marginLeft="75dp"/>
+       
+       <ImageView
+           android:id="@+id/targetlist1"
+           android:layout_width="150dp"
+           android:layout_height="100dp"
+            />
+		<TextView
+           android:id="@+id/textview1"
+           android:layout_width="150dp"
+           android:layout_height="25dp"
+           android:text="@string/equal"
+           android:textSize="25sp"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="75dp"/>
+       
+       <ImageView
+           android:id="@+id/targetlist2"
+           android:layout_width="150dp"
+           android:layout_height="100dp"
+           android:layout_marginTop="10dp"/>
+      
+ 
+        </LinearLayout>
+</LinearLayout>
+

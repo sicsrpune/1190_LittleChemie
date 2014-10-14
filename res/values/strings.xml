@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Little Chemie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button2">Start Game</string>
+	<color name="red">#ffff00</color>
+    <color name="textcolor">#ffffff</color>
+	<string name="About">About Game</string>
+    <string name="title_activity_new_game">New Game</string>
+    <string name="title_activity_action">Action Bar</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_view_points">View Points</string>
+    <string name="title_activity_singleitemview">Single Item View</string>
+    <string name="title_activity_checkitemview">Check Item View</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Filter ListView Images</string>
+    <string name="countrylabel"></string>
+	<string name="score">Score:</string>
+	<string name="hscore">Highest Score</string>
+	<string name="plus">+</string>
+	<string name="equal">=</string>
+	<color name="point">#000066</color>
+	<color name="point1">#ffffff</color>
+	<string name="content">Little Chemie is a combination of two word. First Word Little is English Word and second word Chemie is a German word which means Chemistery in English. Game is an inspiration from "Little Alchemie" but not its except replication. This application contains 210 predefined natural and artificial objects. Player needs to match two objects against the third one in order to count the point, incase player is not able to make a match count will not increase. Invaild or duplicate combination will result to display of appropriate message. With each move player will be able to hear audio regarding object being dropped. 
+	Players are advised to use the search  box in need of any elements.</string>	    
+    <string-array name="combination">
+        <item>Water:CarbonDioxide:Soda</item>
+        <item>CarbonDioxide:Water:Soda</item>
+        <item>Water:Fire:Steam</item>
+        <item>Fire:Water:Steam</item>
+		<item>Water:Energy:Steam</item>
+		<item>Energy:Water:Steam</item>
+		<item>Water:Water:Sea</item>
+		<item>Water:Sea:Ocean</item>
+		<item>Sea:Water:Ocean</item>
+		<item>Water:Earth:Mud</item>
+		<item>Earth:Water:Mud</item>
+		<item>Water:Air:Rain</item>
+		<item>Air:Water:Rain</item>
+		<item>Water:Cloud:Rain</item>
+		<item>Cloud:Water:Rain</item>
+		<item>Water:Cold:Ice</item>
+		<item>Cold:Water:Ice</item>
+		<item>Water:Bird:Duck</item>
+		<item>Bird:Water:Duck</item>
+		<item>Water:Fruit:Juice</item>
+		<item>Fruit:Water:Juice</item>
+		<item>Water:Statue:Fountain</item>
+		<item>Statue:Water:Fountain</item>
+		<item>Water:Wood:Boat</item>
+		<item>Wood:Water:Boat</item>
+		<item>Water:Streamengine:Steamboat</item>
+		<item>Streamengine:Water:Steamboat</item>
+		<item>Water:Airplane:Seaplane</item>
+		<item>Airplane:Water:Seaplane</item>
+		<item>Water:Horse:Hippo</item>
+		<item>Horse:Water:Hippo</item>		
+		<item>Fire:Earth:Lava</item>
+		<item>Earth:Fire:Lava</item>
+		<item>Fire:Air:Energy</item>
+		<item>Air:Fire:Energy</item>
+		<item>Fire:Dust:Gunpowder</item>
+		<item>Dust:Fire:Gunpowder</item>
+		<item>Fire:Sand:Glass</item>
+		<item>Fire:Stone:Metal</item>
+		<item>Stone:Fire:Metal</item>
+		<item>Fire:Plant:Tobacco</item>
+		<item>Plant:Fire:Tobacco</item>
+		<item>Fire:Wood:Smoke</item>
+		<item>Wood:Fire:Smoke</item>
+		<item>Fire:Sky:Sun</item>
+		<item>Sky:Fire:Sun</item>
+		<item>Fire:Human:Fireman</item>
+		<item>Human:Fire:Fireman</item>
+		<item>Fire:Mud:Brick</item>
+		<item>Mud:Fire:Brick</item>
+		<item>Fire:Vegetable:Pumpkin</item>
+		<item>Vegetable:Fire:Pumpkin</item>
+		<item>Earth:Life:Human</item>
+		<item>Life:Earth:Human</item>
+		<item>Earth:Air:Dust</item>
+		<item>Air:Earth:Dust</item>
+		<item>Earth:Sky:Horizon</item>
+		<item>Sky:Earth:Horizon</item>
+		<item>Earth:Bird:Ostrich</item>
+		<item>Bird:Earth:Ostrich</item>
+		<item>Earth:Space:Planet</item>
+		<item>Space:Earth:Planet</item>
+		<item>Earth:Plant:Grass</item>
+		<item>Plant:Earth:Grass</item>
+		<item>Earth:Rain:Plant</item>
+		<item>Rain:Earth:Plant</item>
+		<item>Earth:Paper:Map</item>
+		<item>Paper:Earth:Map</item>
+		<item>Air:Pressure:Wind</item>
+		<item>Pressure:Air:Wind</item>
+		<item>Air:Stream:Cloud</item>
+		<item>Stream:Air:Cloud</item>
+		<item>Air:Stone:Sand</item>
+		<item>Stone:Air:Sand</item>
+		<item>Air:Pressure:Atmosphere</item>
+		<item>Pressure:Air:Atmosphere</item>
+		<item>Air:Wave:Sound</item>
+		<item>Wave:Air:Sound</item>
+		<item>Pressure:Plant:Coal</item>
+		<item>Plant:Pressure:Coal</item>
+		<item>Pressure:Coal:Diamond</item>
+		<item>Coal:Pressure:Diamond</item>
+		<item>Pressure:Fruit:Juice</item>
+		<item>Fruit:Pressure:Juice</item>
+		<item>Pressure:Milk:Butter</item>
+		<item>Milk:Pressure:Butter</item>
+		<item>Plant:Night:Carbon Dioxide</item>
+		<item>Night:Plant:Carbon Dioxide</item>
+		<item>Clock:Sound:AlarmClock</item>
+		<item>Sound:Clock:AlarmClock</item>
+		<item>Cow:Blade:Leather</item>
+		<item>Blade:Cow:Leather</item>
+		<item>Human:Sound:Music</item>
+		<item>Sound:Human:Music</item>
+		<item>Human:Field:Farmer</item>
+		<item>Field:Human:Farmer</item>
+		<item>Human:Human:Love</item>
+		<item>Human:Plant:Farmer</item>
+		<item>Plant:Human:Farmer</item>
+		<item>Human:Wood:House</item>
+		<item>Wood:Human:House</item>
+		<item>Human:Brick:House</item>
+		<item>Brick:Human:House</item>
+		<item>Human:Metal:Tool</item>
+		<item>Metal:Human:Tool</item>
+		<item>Human:Chrismastree:Santa</item>
+		<item>Chrismastree:Human:Santa</item>
+		<item>Human:Bat:Batman</item>
+		<item>Bat:Human:Batman</item>
+		<item>Human:Clock:Watch</item>
+		<item>Clock:Human:Watch</item>
+		<item>Human:Oxygen:CarbonDioxide</item>
+		<item>Oxygen:Human:CarbonDioxide</item>
+		<item>Tool:Cow:Meat</item>
+		<item>Cow:Tool:Meat</item>
+		<item>Steel:Life:Robot</item>
+		<item>Life:Steel:Robot</item>
+		<item>Metal:Life:Robot</item>
+		<item>Life:Metal:Robot</item>
+		<item>Sky:Life:Bird</item>
+		<item>Life:Sky:Bird</item>
+		<item>Time:Sun:Day</item>
+		<item>Sun:Time:Day</item>
+		<item>Time:Wheel:Clock</item>
+		<item>Wheel:Time:Clock</item>
+		<item>Tree:Night:CarbonDioxide</item>
+		<item>Night:Tree:CarbonDioxide</item>
+		<item>Coal:Time:Diamond</item>
+		<item>Time:Coal:Diamond</item>
+		<item>Time:Fruit:Alcohol</item>
+		<item>Fruit:Time:Alcohol</item>
+		<item>Plant:Love:Rose</item>
+		<item>Love:Plant:Rose</item>
+		<item>Cloud:Plant:Cotton</item>
+		<item>Plant:Cloud:Cotton</item>
+		<item>Cold:Carbon Dioxide:Dryice</item>
+		<item>Carbon Dioxide:Cold:Dryice</item>
+		<item>Plant:Sun:Sunflower</item>
+		<item>Sun:Plant:Sunflower</item>
+		<item>Farmer:House:Farm</item>
+		<item>House:Farmer:Farm</item>
+		<item>Car:Farmer:Tractor</item>
+		<item>Farmer:Car:Tractor</item>
+		<item>Plant:Sun:Oxygen</item>
+		<item>Sun:Plant:Oxygen</item>
+		<item>Plant:Night:Carbondioxide</item>
+		<item>Night:Plant:Carbondioxide</item>
+		<item>Computer:Computer:Internet</item>
+		<item>Wire:Computer:Internet</item>
+		<item>Computer:Wire:Internet</item>
+		<item>Fireman:Car:Firetruck</item>
+		<item>Car:Fireman:Firetruck</item>
+		<item>Car:Car:Bus</item>
+		<item>Metal:Electricty:Wire</item>
+		<item>Electricty:Metal:Wire</item>
+		<item>Gunpowder:Wire:Dynamite</item>
+		<item>Wire:Gunpowder:Dynamite</item>
+		<item>Field:Fruit:Vegetable</item>
+		<item>Fruit:Field:Vegetable</item>
+		<item>Cheese:Wildanimal:Mouse</item>
+		<item>Wildanimal:Cheese:Mouse</item>
+		<item>Bird:Mouse:Bat</item>
+		<item>Mouse:Bird:Bat</item>
+		<item>Computer:Mouse:Computer Mouse</item>
+		<item>Mouse:Computer:Computer Mouse</item>
+		<item>Blade:Wood:Axe</item>
+		<item>Wood:Blade:Axe</item>
+		<item>Car:Hospital:Ambulance</item>
+		<item>Hospital:Car:Ambulance</item>
+		<item>Car:Doctor:Ambulance</item>
+		<item>Doctor:Car:Ambulance</item>
+		<item>Tobacco:Paper:Cigarette</item>
+		<item>Paper:Tobacco:Cigarette</item>
+		<item>Plant:Garden:Flower</item>
+		<item>Garden:Plant:Flower</item>
+		<item>Flower:Bee:Honey</item>
+		<item>Bee:Flower:Honey</item>
+		<item>Rain:Sun:Rainbow</item>
+		<item>Sun:Rain:Rainbow</item>
+		<item>Air:Lava:Stone</item>
+		<item>Lava:Air:Stone</item>
+		<item>Stone:tool:Statue</item>
+		<item>tool:Stone:Statue</item>
+		<item>Metal:Blade:sword</item>
+		<item>Blade:Metal:sword</item>
+		<item>Steel:Blade:sword</item>
+		<item>Blade:Steel:sword</item>
+		<item>Airplane:Space:Rocket</item>
+		<item>Space:Airplane:Rocket</item>
+		<item>Human:Rocket:Astronaut</item>
+		<item>Rocket:Human:Astronaut</item>		
+		<item>Wind:Desert:Dune</item>
+		<item>Desert:Wind:Dune</item>
+		<item>Wind:Beach:Dune</item>
+		<item>Beach:Wind:Dune</item>
+		<item>Wind:Wind Turbine:Electricity</item>
+		<item>Wind Turbine:Wind:Electricity</item>
+		<item>Sea:Wind:Wave</item>
+		<item>Wind:Sea:Wave</item>
+		<item>Ocean:Wind:Wave</item>
+		<item>Wind:Ocean:Wave</item>		
+		<item>Fire:Clay:Brick</item>
+		<item>Clay:Fire:Brick</item>
+		<item>Sun:Clay:Brick</item>
+		<item>Clay:Sun:Brick</item>
+		<item>Fire:Clay:Pottery</item>
+		<item>Clay:Fire:Pottery</item>
+		<item>Plant:Pottery:Vase</item>
+		<item>Pottery:Plant:Vase</item>
+		<item>Brick:Brick:Wall</item>
+		<item>Tool:Brick:House</item>
+		<item>Brick:Tool:House</item>
+		<item>Wall:Wall:House</item>
+		<item>Wall:River:Dam</item>
+		<item>River:Wall:Dam</item>
+		<item>Water:Mountain:River</item>
+		<item>Mountain:Water:River</item>
+		<item>Wood:Wall:Fence</item>
+		<item>Wall:Wood:Fence</item>
+		<item>Wood:River:Bridge</item>
+		<item>River:Wood:Bridge</item>
+		<item>Metal:River:Bridge</item>
+		<item>River:Metal:Bridge</item>
+		<item>Steel:River:Bridge</item>
+		<item>River:Steel:Bridge</item>
+		<item>Earth:Earthquake:Mountain</item>
+		<item>Earthquake:Earth:Mountain</item>
+		<item>Bird:Mountain:Eagle</item>
+		<item>Mountain:Bird:Eagle</item>
+		<item>Ice:Mouintain:Glacier</item>
+		<item>Mouintain:Ice:Glacier</item>
+		<item>Air:Cloud:Sky</item>
+		<item>Cloud:Air:Sky</item>
+		<item>Sky:Egg:Bird</item>
+		<item>Egg:Sky:Bird</item>
+		<item>Sky:Cheese:Moon</item>
+		<item>Cheese:Sky:Moon</item>
+		<item>Sky:Fire:Sun</item>
+		<item>Fire:Sky:Sun</item>
+		<item>Sky:Pressure:Atmosphere</item>
+		<item>Pressure:Sky:Atmosphere</item>
+		<item>Sky:Night:Star</item>
+		<item>Night:Sky:Star</item>
+		<item>Sky:Earth:Horizon</item>
+		<item>Earth:Sky:Horizon</item>
+		<item>Sky:Sea:Horizon</item>
+		<item>Sea:Sky:Horizon</item>
+		<item>Sky:Ocean:Horizon</item>
+		<item>Ocean:Sky:Horizon</item>
+		<item>Sky:Star:Space</item>
+		<item>Star:Sky:Space</item>
+		<item>Sky:Glass:Telescope</item>
+		<item>Glass:Sky:Telescope</item>
+		<item>Sky:Mouse:Bat</item>
+		<item>Mouse:Sky:Bat</item>
+		<item>Sky:House:Skyscraper</item>
+		<item>House:Sky:Skyscraper</item>
+		<item>Sky:Explosion:FireWorks</item>
+		<item>Explosion:Sky:FireWorks</item>
+		<item>Time:Moon:Night</item>
+		<item>Moon:Time:Night</item>
+		<item>Moon:Sun:Eclipse</item>
+		<item>Sun:Moon:Eclipse</item>
+		<item>Sea:Moon:Tide</item>
+		<item>Moon:Sea:Tide</item>
+		<item>Ocean:Moon:Tide</item>
+		<item>Moon:Ocean:Tide</item>
+		<item>Human:Moon:Astronaut</item>
+		<item>Moon:Human:Astronaut</item>
+		<item>Moon:Star:Space</item>
+		<item>Star:Moon:Space</item>
+		<item>Moon:Wild Animal:Wolf</item>
+		<item>Wild Animal:Moon:Wolf</item>
+		<item>Willd Animal:Dog:Wolf</item>
+		<item>Dog:Willd Animal:Wolf</item>
+		<item>Forest:Dog:Wolf</item>
+		<item>Dog:Forest:Wolf</item>
+		<item>Dog:Sea:Seal</item>
+		<item>Sea:Dog:Seal</item>
+		<item>Life:Forest:Wild Animal</item>
+		<item>Forest:Life:Wild Animal</item>
+		<item>Sea:Wild Animal:Shark</item>
+		<item>Wild Animal:Sea:Shark</item>
+		<item>Ocean:Wild Animal:Shark</item>
+		<item>Wild Animal:Ocean:Shark</item>
+		<item>Cheese:Wild Animal:Mouse</item>
+		<item>Wild Animal:Cheese:Mouse</item>
+		<item>Cat:Wild Animal:Lion</item>
+		<item>Wild Animal:Cat:Lion</item>
+		<item>Human:Lion:Sphinx</item>
+		<item>Lion:Human:Sphinx</item>
+		<item>Wild Animal:Tree:Monkey</item>
+		<item>Tree:Wild Animal:Monkey</item>
+		<item>Wild Animal:Pond:Frog</item>
+		<item>Pond:Wild Animal:Frog</item>
+		<item>Wild Animal:Desert:Camel</item>
+		<item>Desert:Wild Animal:Camel</item>
+		<item>Fruit:Monkey:Banana</item>
+		<item>Monkey:Fruit:Banana</item>
+		<item>Plant:Desert:Cactus</item>
+		<item>Desert:Plant:Cactus</item>
+		<item>Desrt:Snow:Antarctica</item>
+		<item>Snow:Desrt:Antarctica</item>
+		<item>Desert:Ice:Antarctica</item>
+		<item>Ice:Desert:Antarctica</item>
+		<item>Desrt:Horse:Camel</item>
+		<item>Horse:Desrt:Camel</item>
+		<item>Desert:Wild Animal:Camel</item>
+		<item>Wild Animal:Desert:Camel</item>
+		<item>Stone:Desert:Pyramid</item>
+		<item>Desert:Stone:Pyramid</item>
+		<item>Grave:Desert:Pyramid</item>
+		<item>Desert:Grave:Pyramid</item>
+		<item>Corpse:Pyramid:Mummy</item>
+		<item>Pyramid:Corpse:Mummy</item>
+		<item>Human:Gun:Corpse</item>
+		<item>Gun:Human:Corpse</item>
+		<item>Life:Corpse:Zombie</item>
+		<item>Corpse:Life:Zombie</item>
+		<item>Wood:Corpse:Coffin</item>
+		<item>Corpse:Wood:Coffin</item>
+		<item>Earth:Corpse:Grave</item>
+		<item>Corpse:Earth:Grave</item>
+		<item>Earth:Coffin:Grave</item>
+		<item>Coffin:Earth:Grave</item>
+		<item>Time:Corpse:Bone</item>
+		<item>Corpse:Time:Bone</item>
+		<item>Time:Corpse:Skeleton</item>
+		<item>Bone:Bone:Skeleton</item>
+		<item>Bird:Corpse:Vulture</item>
+		<item>Corpse:Bird:Vulture</item>
+		<item>Rocket:Human:Astronaut</item>
+		<item>Human:Rocket:Astronaut</item>
+		<item>Human:Space Station:Astronaut</item>
+		<item>Space Station:Human:Astronaut</item>
+		<item>Space:House:Space Station</item>
+		<item>House:Space:Space Station</item>
+		<item>Computer:Letter:Email</item>
+		<item>Letter:Computer:Email</item>		
+		<item>Human:Blade:Blood</item>
+		<item>Blade:Human:Blood</item>		
+		<item>Sea:Sand:Beach</item>
+		<item>Sand:Sea:Beach</item>		
+		<item>Ocean:Sand:Beach</item>
+		<item>Sand:Ocean:Beach</item>		
+		<item>Beach:Light:Lighthouse</item>
+		<item>Light:Beach:Lighthouse</item>		
+		<item>Electricty:Lightblub:Light</item>
+		<item>Lightblub:Electricty:Light</item>		
+		<item>Glass:Electricity:Lightblub</item>
+		<item>Electricity:Glass:Lightblub</item>		
+		<item>Sand:Electricty:Glass</item>
+		<item>Electricty:Sand:Glass</item>		
+		<item>Juice:CarbonDioxide:Soda</item>
+		<item>CarbonDioxide:Juice:Soda</item>		
+		<item>Time:Juice:Alcohol</item>
+		<item>Juice:Time:Alcohol</item>		
+		<item>Fire:Juice:Sugar</item>
+		<item>Juice:Fire:Sugar</item>		
+		<item>Energy:Juice:Sugar</item>
+		<item>Juice:Energy:Sugar</item>		
+		<item>Ice:Juice:PopSicle</item>
+		<item>Juice:Ice:PopSicle</item>		
+		<item>Cold:Juice:Popsicle</item>
+		<item>Juice:Cold:Popsicle</item>		
+		<item>Fruit:Sugar:Jam</item>
+		<item>Sugar:Fruit:Jam</item>		
+		<item>Dough:Sugar:Cookie</item>
+		<item>Sugar:Dough:Cookie</item>		
+		<item>Cookie:Santa:Gift</item>
+		<item>Santa:Cookie:Gift</item>		
+		<item>Water:Flour:Dough</item>
+		<item>Flour:Water:Dough</item>		
+		<item>Fire:Dough:Bread</item>
+		<item>Dough:Fire:Bread</item>		
+		<item>Cheese:Dough:Pizza</item>
+		<item>Dough:Cheese:Pizza</item>		
+		<item>Dough:Sugar:Donut</item>
+		<item>Sugar:Dough:Donut</item>		
+		<item>Dough:Candle:Cake</item>
+		<item>Candle:Dough:Cake</item>		
+		<item>Stone:Wheat:Flour</item>
+		<item>Wheat:Stone:Flour</item>		
+		<item>Wheat:Windmill:Flour</item>
+		<item>Windmill:Wheat:Flour</item>		
+		<item>Milk:Flour:Batter</item>
+		<item>Flour:Milk:Batter</item>		
+		<item>Human:Flour:Baker</item>
+		<item>Flour:Human:Baker</item>		
+		<item>Egg:Flour:Pasta</item>
+		<item>Flour:Egg:Pasta</item>		
+		<item>Electricity:Windmill:Wind Turbine</item>
+		<item>Windmill:Electricity:Wind Turbine</item>		
+		<item>Wind:House:Windmill</item>
+		<item>House:Wind:Windmill</item>		
+		<item>Wind:Wheel:Windmill</item>
+		<item>Wheel:Wind:Windmill</item>		
+		<item>Wind:Paper:Kite</item>
+		<item>Paper:Wind:Kite</item>		
+		<item>Wind:Sand:Dune</item>
+		<item>Sand:Wind:Dune</item>		
+		<item>Meat:Smoke:Ham</item>
+		<item>Smoke:Meat:Ham</item>		
+		<item>Bread:Ham:Sandwich</item>
+		<item>Ham:Bread:Sandwich</item>		
+		<item>Fire:Sandwich:Toast</item>
+		<item>Sandwich:Fire:Toast</item>		
+		<item>Fire:Bread:Toast</item>
+		<item>Bread:Fire:Toast</item>				
+		<item>Farmer:Cow:Milk</item>
+		<item>Cow:Farmer:Milk</item>		
+		<item>Human:Cow:Milk</item>
+		<item>Cow:Human:Milk</item>		
+		<item>Milk:Cold:Ice Cream</item>
+		<item>Cold:Milk:Ice Cream</item>		
+		<item>Milk:Ice:Ice Cream</item>
+		<item>Ice:Milk:Ice Cream</item>		
+		<item>Milk:Ice Cream:Milk Shake</item>
+		<item>Ice Cream:Milk:Milk Shake</item>		
+		<item>Human:Christmas Tree:Santa</item>
+		<item>Christmas Tree:Human:Santa</item>		
+		<item>Mud:Sand:Clay</item>
+		<item>Sand:Mud:Clay</item>
+		
+
+    </string-array>
+</resources>
